@@ -1,0 +1,14 @@
+admin:12345
+admin:admin
+admin:123456
+Admin:123456
+root:pass
+root:system
+admin:meinsm
+root:root
+admin:4321
+admin:1111111
+admin:4321
+root:ikwd
+root
+admin
