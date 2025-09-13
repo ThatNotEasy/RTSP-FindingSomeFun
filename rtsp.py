@@ -4,7 +4,7 @@ import socket
 import os
 import re
 import threading
-from sys import stdout
+from sys import stdout,exit
 from colorama import Fore, init
 init(autoreset=True)
 
@@ -94,7 +94,7 @@ def main():
             ip_list = f.readlines()
     except FileNotFoundError:
         print(f"{FY}[ERROR!] - {FR}Bro? Whutt are you doin?{target_file}")
-        sys.exit(1)
+        exit(1)
 
     num_threads = int(input(f"{FY}[Threads]: {FW}") or "10")
 
